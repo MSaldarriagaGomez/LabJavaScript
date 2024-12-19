@@ -1,3 +1,7 @@
+function getRandomColor() {
+    const colors = ['green', 'blue', 'red'];
+    return colors[Math.floor(Math.random() * colors.length)];
+}
 
 function applyRandomColor(element) {
     element.style.color = getRandomColor();
